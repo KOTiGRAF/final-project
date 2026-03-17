@@ -1,0 +1,412 @@
+* {
+    margin : 0;
+    padding: 0;
+/*    width: 1060px;*/
+
+}
+
+.hadar {
+    background-image: url("https://images.stopgame.ru/games/logos/42424/c2560x824/IR63b8LYefSiw7asiYy9OA/blood_strike-hero.jpg" );
+    height: 600px;
+    background-position: 50% -20px;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+
+.bottons {
+    height: 50px;
+    background-color: black;
+    text-align: center;
+}
+
+.bottons a {
+    text-decoration: none;
+    font-size: 40px;
+    color: orange;
+    padding: 40px;
+}
+
+
+
+.guns {
+/*    text-align: center;*/
+    height: auto;
+    background-color: black;
+    display: grid;
+}
+
+.guns h2 {
+    text-align: center;
+    color: white;
+}
+
+.gun_1 {
+    padding:70px;
+    display:flex;
+    flex-direction: row-reverse;
+    background-color: #010135;
+    margin: 10px;
+
+}
+.gun_2 {
+    padding:70px;
+    display:flex;
+    flex-direction: row;
+    background-color: #010135;
+    border-radius: 100px;
+    margin: 10px;
+}
+
+.gun_3 {
+    padding:70px;
+    display:flex;
+    flex-direction: row-reverse;
+    background-color: #010135;
+    border-radius: 100px;
+    margin: 10px;
+}
+
+.gun_4 {
+    padding:70px;
+    display:flex;
+    flex-direction: row;
+    background-color: #010135;
+    border-radius: 100px;
+    margin: 10px;
+}
+
+.guns img {
+    width: auto;
+    width: 50%;
+/*    position: relative;*/
+    margin: 0 auto;
+}
+
+.gun_0 {
+    width: 1100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.map_0 {
+    width: 1100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.skin_0 {
+    width: 1100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.gun_1 {
+    float: right;
+    background-color: #010135;
+    border-radius: 100px;
+}
+
+.maps {
+    height: auto;
+    background-color: black;
+    text-align: center;
+}
+
+.map_1 {
+    background-color: #731e1e;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.map_2 {
+    background-color: #731e1e;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.map_2 h2{
+    padding: 30px;
+}
+
+.map_1 h2{
+    padding: 30px;
+}
+
+.maps img {
+    width: 70%;
+}
+
+.maps h2 {
+    color: white;
+}
+
+.person{
+    height: auto;
+    background-color: black;
+    display: grid;
+
+}
+
+.person img {
+    width: 500px;
+}
+
+.person_0 {
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.person_1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #013002;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.person_2 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #013002;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 20px;
+}
+
+/*.person_2 h2 {*/
+/*    padding: 20px;*/
+/*}*/
+
+.person_3 {
+    display: flex;
+    flex-direction: row;
+    background-color: #013002;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.person_4 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #013002;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.skins {
+    height: auto;
+    background-color: black;
+    display: grid;
+    text-align: center;
+}
+
+.skins img {
+    width: auto;
+    width: 50%;
+    /*    position: relative;*/
+    margin: 0 auto;
+}
+
+.skin_1 {
+    padding:70px;
+    display:flex;
+    flex-direction: row-reverse;
+    background-color: #010135;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.skin_2 {
+    padding:70px;
+    display:flex;
+    flex-direction: row;
+    background-color: #010135;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.skin_3 {
+    padding:70px;
+    display:flex;
+    flex-direction: row-reverse;
+    background-color: #010135;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.skin_4 {
+    padding:70px;
+    display:flex;
+    flex-direction: row;
+    background-color: #010135;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.skin_5 {
+    padding:70px;
+    display:flex;
+    flex-direction: row-reverse;
+    background-color: #010135;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.skin_6 {
+    padding:70px;
+    display:flex;
+    flex-direction: row;
+    background-color: #010135;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.skins h2 {
+    color: white;
+}
+
+.footer {
+    height: auto;
+    background-color: #393939;
+    padding: 50px;
+}
+
+.guns h1{
+    text-align: center;
+    color: white;
+}
+
+.maps h1{
+    text-align: center;
+    color: white;
+}
+
+.person {
+
+}
+
+.person h1, .person h2{
+    text-align: center;
+    color: white;
+}
+
+.skins h1{
+    text-align: center;
+    color: white;
+
+}
+
+.person_1 img {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.person_3 img {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.person_2 img {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.person_4 img {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.bottons a:hover{
+/*    color: red;*/
+    text-decoration: underline;
+    transition: 0.4s;
+/*    text-decoration-color: red;*/
+    /*    border-color: #262626;*/
+/*    height: 100%;*/
+/*    transform: translateX(0);*/
+/*    transition: .3s transform linear, .3s height linear .3s;*/
+}
+
+.guns img{
+    border-radius:50px;
+}
+
+.skins img{
+    border-radius:50px;
+}
+
+.footer{
+    text-align:center;
+    display: flex;
+}
+
+.footer a {
+    padding-top: 0px;
+    text-decoration: none;
+    font-size:30px;
+    color:red;
+/*    margin-top:100px;*/
+    padding-top:100px;
+    margin:50px;
+}
+
+.ab{
+/*    height: 100px;*/
+/*    width: 230px;*/
+    background-color: blue;
+    border-radius: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 100px;
+}
+
+.ab a{
+    padding-top: 50px;
+
+}
+
+.ab a:hover {
+    color: rgb(200, 150,0);
+    font-size: 35px;
+    transition: 0.4s;
+}
+
+.df{
+/*    height: 100px;*/
+/*    width: 230px;*/
+    background-color: blue;
+    border-radius: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 100px;
+}
+
+.df a{
+    padding-top: 50px;
+
+}
+
+.df a:hover {
+    color: rgb(200, 150,0);
+    font-size: 35px;
+    transition: 0.4s;
+}
+
+.footer a:hover {
+/*    background-color: #31ff0045;*/
+/*    background-height: 50px;*/
+    color: rgb(200, 150,0);
+    font-size: 35px;
+/*    background: linear-gradient(to bottom, #1b1c3f, #4a4e91);*/
+/*    border-haith: 50px;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+    transition: 0.4s;
+}
+
+
